@@ -1,0 +1,32 @@
+//1.  Animal class in zoo package—
+
+ package zoo;
+abstract class Animal {
+private string name;
+private string species;
+private int animalId;
+private string vaccStatus;
+public void setName( string Name);
+public void setspecies( string Species) ;
+ public int setAnimalId ( int AnimalId);
+public void set vaccStatus ( string VaccStatus);
+    public string getName() ;
+   public string getSpecies() ;
+   public string getAnimalId () ;
+   public string getVaccStatus () ;
+};
+
+// 2. Ticket class In zoo package
+
+package zoo;
+abstract class ticket{
+ private string name;
+private string class;
+private string add_onns;
+public string setName( string Name) ;
+public string setClass( string Class) ;
+public string setAdd_onns ( int Add_onns) ;
+public string getName() ;
+public string getClass() ;
+public string getAdd_onns ();
+};
