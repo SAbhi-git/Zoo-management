@@ -1,0 +1,64 @@
+3. Main Class
+import zoo.*;
+import java.util.*;
+Class person extends ticket{
+public string setName( string newName) {
+      name = newName;
+   }
+ public string setClass( string newClass) {
+      class = newClass;
+   }
+public string setAdd_onns ( int newAdd_onns) {
+     add_onns= newAdd_onns;
+   }
+   public string getName() {
+      return name;
+   }
+   public string getClass() {
+      return Class;
+   }
+public string getAdd_onns () {
+      return add_onns;
+   }
+};
+
+class lion extends Animal {
+public void setName( string newName) {
+      name = newName;
+   }
+ public void setspecies( string newSpecies) {
+      species = newSpecies;
+   }
+ public int setAnimalId ( int newAnimalId) {
+      animalId = newAnimlId;
+   }
+ public void set vaccStatus ( string newVaccStatus) {
+      vaccStatus = newVaccStatus;
+   }
+    public string getName() {
+      return name;
+   }
+   public string getSpecies() {
+      return Species;
+   }
+   public string getAnimalId () {
+      return animalId;
+   }
+   public string getVaccStatus () {
+      return vaccStatus;
+}
+Public void checkVaccStatus(){
+    System.out.println("Doses :"+ getVaccStatus);
+}
+};
+
+class Main {
+	public static void main(String[] args)
+	{
+		Lion simbha = new Animal();
+		Simbha. setname(“SIMBHA”);
+		Simbha. setAnimalId(“001”);
+		Simbha.	setSpecies(“Marsupials”);
+		Simbha. setVaccStatus(“2nd dose given”);
+		Simbha.checkVaccStatus();
+}
